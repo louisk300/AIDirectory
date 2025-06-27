@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Advertise - Discover AI Directory</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Discover AI Directory Logo" class="logo">
+      <h1>Discover AI Directory</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="newsletter.html">Newsletter</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Advertise Your AI Tool</h1>
+      <p>Get your AI tool featured in front of thousands of potential users</p>
+    </section>
+
+    <section class="page-content">
+      <h2>Submit Your AI Tool for Review</h2>
+      <p>Have an innovative AI tool that deserves recognition? We'd love to feature it in our directory! Fill out the form below to submit your tool for review and potential inclusion in Discover AI Directory.</p>
+      
+      <form id="advertiseForm" style="margin-top: 2rem;">
+        <div class="form-group">
+          <label for="toolName">Tool Name *</label>
+          <input type="text" id="toolName" name="toolName" class="form-input" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="toolUrl">Tool Website URL *</label>
+          <input type="url" id="toolUrl" name="toolUrl" class="form-input" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="category">Category *</label>
+          <select id="category" name="category" class="form-select" required>
+            <option value="">Select a category</option>
+            <option value="Chat">Chat & Conversational AI</option>
+            <option value="Image Generation">Image Generation</option>
+            <option value="Video">Video & Animation</option>
+            <option value="Text Generation">Text Generation & Writing</option>
+            <option value="Productivity">Productivity & Organization</option>
+            <option value="Business">Business & Analytics</option>
+            <option value="Automation">Automation & Workflows</option>
+            <option value="Audio">Audio & Music</option>
+            <option value="Code">Code & Development</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="pricing">Pricing Model *</label>
+          <select id="pricing" name="pricing" class="form-select" required>
+            <option value="">Select pricing model</option>
+            <option value="Free">Free</option>
+            <option value="Freemium">Freemium</option>
+            <option value="Paid">Paid</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="description">Tool Description *</label>
+          <textarea id="description" name="description" class="form-textarea" placeholder="Provide a clear, concise description of what your AI tool does and its main features..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="keyFeatures">Key Features</label>
+          <textarea id="keyFeatures" name="keyFeatures" class="form-textarea" placeholder="List the main features and capabilities of your tool..."></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="targetAudience">Target Audience</label>
+          <input type="text" id="targetAudience" name="targetAudience" class="form-input" placeholder="e.g., Content creators, Developers, Marketers...">
+        </div>
+        
+        <div class="form-group">
+          <label for="contactName">Your Name *</label>
+          <input type="text" id="contactName" name="contactName" class="form-input" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="contactEmail">Your Email *</label>
+          <input type="email" id="contactEmail" name="contactEmail" class="form-input" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="companyName">Company/Organization</label>
+          <input type="text" id="companyName" name="companyName" class="form-input">
+        </div>
+        
+        <div class="form-group">
+          <label for="additionalInfo">Additional Information</label>
+          <textarea id="additionalInfo" name="additionalInfo" class="form-textarea" placeholder="Any additional information you'd like us to know about your tool..."></textarea>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2rem;">
+          <button type="submit" class="form-btn">Submit Tool for Review</button>
+        </div>
+      </form>
+      
+      <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 10px;">
+        <h3>What Happens Next?</h3>
+        <ol style="margin-left: 1.5rem; line-height: 1.8;">
+          <li><strong>Review Process:</strong> Our team will review your submission within 5-7 business days</li>
+          <li><strong>Testing:</strong> We'll test your tool to understand its capabilities and user experience</li>
+          <li><strong>Evaluation:</strong> We'll assess how well your tool fits our quality standards and user needs</li>
+          <li><strong>Response:</strong> You'll receive an email with our decision and next steps</li>
+          <li><strong>Publication:</strong> If approved, your tool will be featured in our directory with a detailed review</li>
+        </ol>
+        
+        <p style="margin-top: 1rem;"><strong>Note:</strong> Submission is free, but we maintain high standards for inclusion to ensure our users discover only the best AI tools available.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('advertiseForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your submission! We will review your AI tool and get back to you within 5-7 business days.');
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>
+

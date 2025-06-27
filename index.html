@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Discover AI Directory</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Discover AI Directory Logo" class="logo">
+      <h1>Discover AI Directory</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="advertise.html">Advertise</a>
+      <a href="newsletter.html">Newsletter</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>The world's best curated list of AI Tools</h2>
+      <p>Discover and explore the most powerful AI tools to transform your business and workflow.</p>
+      
+      <!-- Search Section -->
+      <div class="search-container">
+        <div class="search-box">
+          <input type="text" id="searchInput" placeholder="Search AI tool or category" class="search-input">
+          <button class="search-btn" onclick="performSearch()">🔍</button>
+        </div>
+        
+        <div class="filters">
+          <select id="categoryFilter" class="filter-select">
+            <option value="">All Categories</option>
+            <option value="Chat">Chat</option>
+            <option value="Image Generation">Image Generation</option>
+            <option value="Video">Video</option>
+            <option value="Productivity">Productivity</option>
+            <option value="Business">Business</option>
+            <option value="Text Generation">Text Generation</option>
+            <option value="Automation">Automation</option>
+          </select>
+          
+          <select id="pricingFilter" class="filter-select">
+            <option value="">All Pricing</option>
+            <option value="Free">Free</option>
+            <option value="Freemium">Freemium</option>
+            <option value="Paid">Paid</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section">
+      <div class="tools-grid" id="toolsGrid">
+        <!-- Tool cards will be populated by JavaScript -->
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-content">
+        <h2>Stay Updated with AI</h2>
+        <p>Get the latest AI tools, tutorials, and industry insights delivered to your inbox weekly</p>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" class="email-input">
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+        <div class="newsletter-features">
+          <div class="feature">
+            <span class="feature-icon">⚡</span>
+            <span>Weekly AI tool roundups</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🎯</span>
+            <span>Expert tutorials & tips</span>
+          </div>
+          <div class="feature">
+            <span class="feature-icon">🚀</span>
+            <span>Early access to new tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+

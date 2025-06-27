@@ -35,7 +35,7 @@ const aiTools = [
     description: "AI-powered workspace for notes, docs, and project management.",
     category: "Productivity",
     pricing: "Freemium",
-    image: "https://via.placeholder.com/100x100/4c6ef5/ffffff?text=N",
+    image: "images/runwayml_logo.png",
     url: "https://www.notion.so",
     pros: ["Integrated with Notion", "Great for writing", "Multiple AI features"],
     cons: ["Requires Notion knowledge", "Limited free usage"]
@@ -45,7 +45,7 @@ const aiTools = [
     description: "AI writing assistant for marketing copy, blogs, and content creation.",
     category: "Text Generation",
     pricing: "Paid",
-    image: "https://via.placeholder.com/100x100/4c6ef5/ffffff?text=J",
+    image: "images/jasperai_logo.png",
     url: "https://www.jasper.ai",
     pros: ["High-quality content", "Multiple templates", "Brand voice training"],
     cons: ["Expensive pricing", "Learning curve for beginners"]
@@ -55,7 +55,7 @@ const aiTools = [
     description: "Automate workflows between apps with AI-powered automation.",
     category: "Automation",
     pricing: "Freemium",
-    image: "https://via.placeholder.com/100x100/4c6ef5/ffffff?text=Z",
+    image: "images/zapier_logo.png",
     url: "https://zapier.com",
     pros: ["Connects thousands of apps", "No-code automation", "AI-powered suggestions"],
     cons: ["Complex for beginners", "Limited free tier"]
@@ -65,7 +65,7 @@ const aiTools = [
     description: "AI copywriting tool for marketing content and social media posts.",
     category: "Text Generation",
     pricing: "Freemium",
-    image: "https://via.placeholder.com/100x100/4c6ef5/ffffff?text=C",
+    image: "images/copyai_logo.png",
     url: "https://www.copy.ai",
     pros: ["Easy to use", "Multiple content types", "Good free tier"],
     cons: ["Quality can vary", "Limited customization"]
@@ -75,7 +75,7 @@ const aiTools = [
     description: "AI-powered video messaging and screen recording platform.",
     category: "Video",
     pricing: "Freemium",
-    image: "https://via.placeholder.com/100x100/4c6ef5/ffffff?text=L",
+    image: "images/loom_logo.png",
     url: "https://www.loom.com",
     pros: ["Easy screen recording", "AI transcription", "Good sharing features"],
     cons: ["Limited editing features", "Storage limits on free plan"]
